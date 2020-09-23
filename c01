@@ -1,0 +1,17 @@
+#------------------------
+# 輸入矩形長及寬
+#------------------------
+length = input('請輸入長:')
+width = input('請輸入寬:')
+
+#------------------------
+# 計算矩形面積
+#------------------------
+try:
+    length = float(length)
+    width = float(width)
+    
+    area = length * width
+    print(f'面積: {area:,.2f}')
+except:
+    print('輸入值錯誤!')
